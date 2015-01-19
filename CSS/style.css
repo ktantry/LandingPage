@@ -46,3 +46,41 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.top-navigation {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+	z-index: 9999;
+}
+
+
+.all-links {
+	float: right;
+	color: #838994;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
+
+	/* display: inline-block; */
+	/* margin: 0 15px 0;
+	  	padding: 5px;
+	  	margin-left: 1.563rem; */
+  	
+}
+
+.all-links > li {
+	color: #4c5058;
+	font-weight: 500;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
+	display: inline-block; 
+/* 	margin: 0 15px 0;
+  	padding: 5px; */
+  	margin-left: 1.563rem;
+  	
+}
+
+.logo {
+	vertical-align: baseline;s
+}
