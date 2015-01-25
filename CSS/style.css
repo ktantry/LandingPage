@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,h1h
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -51,7 +52,6 @@ table {
 
 .top-navigation {
 	background-color: #fff;
-	position: fixed;
 	width: 100%;
 	border-bottom: 1px solid #DDD;
 }
@@ -68,7 +68,7 @@ table {
 	height: 70px;
 }
 
-.all-links {
+.top-navigation .all-links {
 	color: #838994;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
@@ -97,6 +97,49 @@ ol, ul {
 .header-link {
 	color: black;
 	font-weight: 600;
+}
+
+.background-section {
+	background-image: url('karma-background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 650px;
+	color: white;
+	margin-top: 140px;
+}
+
+.background-section p {
+	left: 0;
+	line-height: -100px;
+	margin: auto;
+	margin-top: -140px;
+	/* position: absolute; */
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: 60px;
+	padding-bottom: 40px;
+	letter-spacing: 0.05em;
+	font-weight: 100;
+}
+
+.background-section h2 {
+	left: 0;
+	line-height: 100px;
+	margin: auto;
+	margin-top: -70px;
+	/* position: absolute; */
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 0.05em;
+	font-weight: 100;
+}
+
+.buttons {
+	color: white;
+	text-align: center;
 }
 
 
