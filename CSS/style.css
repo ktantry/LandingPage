@@ -54,6 +54,7 @@ table {
 	background-color: #fff;
 	width: 100%;
 	border-bottom: 1px solid #DDD;
+	position: fixed;
 }
 
 .top-navigation > .content {
@@ -82,7 +83,6 @@ ol, ul {
 .top-navigation .all-links > li {
  	display: inline;
   	margin-left: 1.563rem;
- 	/* float: right; */
   	height: 40px;
   	padding-top: 30px;
   	/* font-weight: 500;
@@ -101,33 +101,34 @@ ol, ul {
 
 .background-section {
 	background-image: url('karma-background.jpg');
-	background-size: cover;
 	background-repeat: no-repeat;
 	height: 650px;
 	color: white;
-	margin-top: 140px;
+	overflow: auto;
+	background-position: center bottom;
 }
 
 .background-section p {
 	left: 0;
-	line-height: -100px;
+	/* line-height: -120px; */
 	margin: auto;
-	margin-top: -140px;
-	/* position: absolute; */
-	top: 50%;
+	margin-top: 230px;
+	top: 10%;
 	width: 100%;
 	text-align: center;
 	font-size: 60px;
-	padding-bottom: 40px;
+	padding-top: 15px;
 	letter-spacing: 0.05em;
 	font-weight: 100;
+	border: 1px solid red;
+	
 }
 
 .background-section h2 {
 	left: 0;
 	line-height: 100px;
 	margin: auto;
-	margin-top: -70px;
+	margin-top: 15px;
 	/* position: absolute; */
 	top: 50%;
 	width: 100%;
@@ -140,6 +141,25 @@ ol, ul {
 .buttons {
 	color: white;
 	text-align: center;
+	margin-top: 15px;
 }
+
+button {
+	background-color: #f15a29;
+	border-color: #f15a29;
+	border-radius: 4px;
+	color: white;
+	width: 100px;
+	height: 60px;
+	font-size: 15px;
+}
+
+button:hover {
+	background-color: ##d9400e;
+	border-color: #cf3d0e;
+    cursor: pointer;
+}
+
+
 
 
