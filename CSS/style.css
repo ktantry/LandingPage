@@ -53,8 +53,8 @@ table {
 .top-navigation {
 	background-color: #fff;
 	width: 100%;
-	border-bottom: 1px solid #DDD;
 	position: fixed;
+	border-bottom: 1px solid #DDD;
 }
 
 .top-navigation > .content {
@@ -101,65 +101,65 @@ ol, ul {
 
 .background-section {
 	background-image: url('karma-background.jpg');
-	background-repeat: no-repeat;
-	height: 650px;
-	color: white;
-	overflow: auto;
 	background-position: center bottom;
+	background-repeat: no-repeat;
+	height: 45.938rem;
+	overflow: auto;
 }
 
-.background-section p {
-	left: 0;
-	/* line-height: -120px; */
-	margin: auto;
-	margin-top: 230px;
-	top: 10%;
-	width: 100%;
+.content > h1{
 	text-align: center;
-	font-size: 60px;
-	padding-top: 15px;
-	letter-spacing: 0.05em;
-	font-weight: 100;
-	border: 1px solid red;
-	
+	font-size: 40px;
+	color: white;
+	margin-top: 200px;
 }
 
-.background-section h2 {
-	left: 0;
-	line-height: 100px;
-	margin: auto;
-	margin-top: 15px;
-	/* position: absolute; */
-	top: 50%;
-	width: 100%;
+.content > h3{
 	text-align: center;
 	font-size: 30px;
-	letter-spacing: 0.05em;
-	font-weight: 100;
-}
-
-.buttons {
 	color: white;
-	text-align: center;
-	margin-top: 15px;
+	margin-top: 45px;
 }
 
-button {
+.content .big-button {
 	background-color: #f15a29;
+	color: white;
 	border-color: #f15a29;
 	border-radius: 4px;
-	color: white;
+	margin: 0 auto;
+	height: 50px;
 	width: 100px;
-	height: 60px;
-	font-size: 15px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+
 }
 
-button:hover {
+.big-button:hover {
 	background-color: ##d9400e;
 	border-color: #cf3d0e;
     cursor: pointer;
+
 }
 
+.icon-section .content {
+	text-align: center;
+	width: 100%;
+}
 
+.image-list > li {
+	display: inline-block;
+	margin: 0 150px 0;
+	margin-top: 40px;
+
+}
+
+.icon-section .content > h1 {
+	display: inline-block;
+	color: black;
+	margin-top: 40px;
+	font-weight: 300;
+
+}
 
 
