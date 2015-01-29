@@ -197,4 +197,19 @@ table {
 	margin-right: 50px
 }
 
+.my-icons > li {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	text-align: center;
+	display: inline-block;
+	line-height: 39px;
+	margin: 1.25rem 5px;
+	border: 1px solid #eaebec;
+	/* padding: 0.625rem 0; */
+	
+
+}
+
+
 
