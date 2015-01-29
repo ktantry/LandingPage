@@ -76,17 +76,13 @@ table {
 	float: right;
 }
 
-ol, ul {
-	list-style: none;
-}
 
 .top-navigation .all-links > li {
  	display: inline;
   	margin-left: 1.563rem;
   	height: 40px;
-  	padding-top: 30px;
-  	/* font-weight: 500;
-  	 */}
+  	padding: 30px 0;
+  	}
 
 .top-navigation .all-links > li:hover {
 	color: black;
@@ -198,6 +194,11 @@ ol, ul {
 	margin-top: 20px;
 	font-size: 14px;
 	color: #838994;
+}
+
+.fa {
+	padding: 9px;
+	padding-top: 23px;
 }
 
 
